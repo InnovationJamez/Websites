@@ -1,23 +1,39 @@
-.categories{
-	border:1px #ccc solid;
-	border-color:red;
-	padding:10px;
-	border-radius:15px;
+.all{
+	border-top-width:0pt;
+	border-style:solid;
+	border-right-width:25px;
+	border-left-width:25px;
+	border-bottom-width:25px;
+	border-color:black;
+}
+li a{ 
+	list-style-type: none;
+    padding: 40px;
+    overflow: hidden;
+	font-size:50;
+	color: white;
+}
+li {
+    float: left;
+}
+li a:hover {
+    background-color:white;
+	color:black;
+	font-style:bold;
+}
+ul {
+	width:100%
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+	background-color: #000;
+	font-size:30pt;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-h1 {
-	color:green;
-}
-
-.photo{
-	
-}
-
-.photo1{
-	border:auto;
-}
-
-.Aboutme {
-	background-color:blue;
-	
+.select{
+	background-color:red;
 }
