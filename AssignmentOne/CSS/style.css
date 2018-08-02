@@ -14,6 +14,7 @@ li a{
 	color: white;
 }
 li {
+	list-style-type: none;
     float: left;
 }
 li a:hover {
@@ -22,8 +23,6 @@ li a:hover {
 	font-style:bold;
 }
 ul {
-	width:100%
-    list-style-type: none;
     margin: 0;
     overflow: hidden;
 	background-color: #000;
@@ -32,8 +31,34 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+	border: 5px solid black;
 }
-
 .select{
 	background-color:red;
+}
+p {
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:10%;
+	padding-bottom:5%;
+	height:25%;
+	text-align: justify;
+	background-color:red;
+	width:75%;
+	border: 5px solid black;
+}
+h1 {
+	padding:20px;
+	text-align: justify;
+}
+div {
+    padding: 5px;
+}
+clearfix {
+    overflow: auto;
+}
+.img1 {
+    float: right;
+	height:150px;
+	border-left:20px;
 }
