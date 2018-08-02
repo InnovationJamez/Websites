@@ -1,14 +1,13 @@
-.all{
-	border-top-width:0pt;
+.everything{
+	border-top-width:20pt;
 	border-style:solid;
-	border-right-width:25px;
-	border-left-width:25px;
+	border-right-width:20pt;
+	border-left-width:20pt;
 	border-bottom-width:25px;
 	border-color:black;
 }
 li a{ 
 	list-style-type: none;
-    padding: 40px;
     overflow: hidden;
 	font-size:50;
 	color: white;
@@ -17,6 +16,9 @@ li a{
 li {
 	list-style-type: none;
     float: left;
+	width:20%;
+	padding:5%;
+	min-width:100px;
 }
 li a:hover {
     background-color:white;
@@ -32,7 +34,6 @@ ul {
 img {
     max-width: 100%;
     height: auto;
-/*	border: 5px solid black;  */
 }
 .select{
 	background-color:red;
@@ -48,6 +49,7 @@ p {
 	width:75%;
 	border: 5px solid black;
 	border-radius:10px;
+	font-size:20px;
 }
 h1 {
 	padding:20px;
@@ -57,7 +59,6 @@ h1 {
 	border-radius:10px;
 	background-color:black;
 	color:red;
-	
 }
 div {
     padding: 5px;
@@ -76,4 +77,13 @@ clearfix {
 	float: right;
 	height:175px;
 	border-radius:10px;
+}
+.timeLine{
+	border: 5px solid black;
+	border-radius:10px;
+	width:98.5%;
+	margin-right:auto;
+	margin-left:auto;
+    height: auto;
+	margin-top:25px;
 }
