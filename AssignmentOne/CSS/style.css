@@ -21,8 +21,7 @@ li {
 	min-width:100px;
 }
 li a:hover {
-    background-color:white;
-	color:black;
+	color:grey;
 	font-style:bold;
 }
 ul {
@@ -36,7 +35,7 @@ img {
     height: auto;
 }
 .select{
-	background-color:red;
+	color:red;
 }
 p {
 	padding-left:5%;
